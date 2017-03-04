@@ -25,5 +25,16 @@ public class principal extends AppCompatActivity {
         finish();
     }
 
+    public void jugadores (View view){
+        Intent i = new Intent(this, Jugadores.class);
+        startActivity(i);
+        finish();
+    }
+
+    public void horario (View view){
+        Intent i = new Intent(this, Horario.class);
+        startActivity(i);
+        finish();
+    }
 
 }
