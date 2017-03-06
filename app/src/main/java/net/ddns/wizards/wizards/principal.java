@@ -43,4 +43,10 @@ public class principal extends AppCompatActivity {
         finish();
     }
 
+    public void canastas (View view){
+        Intent i = new Intent(this, Canastas.class);
+        startActivity(i);
+        finish();
+    }
+
 }
