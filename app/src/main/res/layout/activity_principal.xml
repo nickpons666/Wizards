@@ -47,21 +47,21 @@
             android:id="@+id/btn3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="horario"
+            android:onClick="Horario"
             android:text="Horario" />
 
         <Button
             android:id="@+id/btn4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="historial"
+            android:onClick="Historial"
             android:text="Historial" />
 
         <Button
             android:id="@+id/btn5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="asistencia"
+            android:onClick="Asistencia"
             android:text="Asistencia" />
 
         <Button

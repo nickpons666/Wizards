@@ -37,4 +37,10 @@ public class principal extends AppCompatActivity {
         finish();
     }
 
+    public void historial (View view){
+        Intent i = new Intent(this, Historial.class);
+        startActivity(i);
+        finish();
+    }
+
 }
