@@ -27,7 +27,8 @@
         <activity android:name=".Jugadores" />
         <activity android:name=".Horario" />
         <activity android:name=".Historial" />
-        <activity android:name=".Canastas"></activity>
+        <activity android:name=".Canastas" />
+        <activity android:name=".Reglamento"></activity>
     </application>
 
 </manifest>

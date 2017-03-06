@@ -19,7 +19,7 @@ public class principal extends AppCompatActivity {
         finish();
     }
 
-    public void asistencia (View view){
+    public void Asistencia (View view){
         Intent i = new Intent(this, Asistencia.class);
         startActivity(i);
         finish();
@@ -31,13 +31,13 @@ public class principal extends AppCompatActivity {
         finish();
     }
 
-    public void horario (View view){
+    public void Horario (View view){
         Intent i = new Intent(this, Horario.class);
         startActivity(i);
         finish();
     }
 
-    public void historial (View view){
+    public void Historial (View view){
         Intent i = new Intent(this, Historial.class);
         startActivity(i);
         finish();
@@ -45,6 +45,12 @@ public class principal extends AppCompatActivity {
 
     public void canastas (View view){
         Intent i = new Intent(this, Canastas.class);
+        startActivity(i);
+        finish();
+    }
+
+    public void reglamento (View view){
+        Intent i = new Intent(this, Reglamento.class);
         startActivity(i);
         finish();
     }
