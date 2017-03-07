@@ -13,7 +13,7 @@ public class Horario extends AppCompatActivity {
         setContentView(R.layout.activity_horario);
     }
 
-    public void principal (View view){
+    public void principal(View view) {
         Intent i = new Intent(this, principal.class);
         startActivity(i);
         finish();

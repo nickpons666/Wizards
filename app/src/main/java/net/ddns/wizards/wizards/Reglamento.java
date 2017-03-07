@@ -7,15 +7,15 @@ import android.view.View;
 
 public class Reglamento extends AppCompatActivity {
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_reglamento);
-    }
+        @Override
+        protected void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.activity_reglamento);
+        }
 
-    public void principal(View view) {
-        Intent i = new Intent(this, principal.class);
-        startActivity(i);
-        finish();
+        public void principal(View view) {
+            Intent i = new Intent(this, principal.class);
+            startActivity(i);
+            finish();
+        }
     }
-}
