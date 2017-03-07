@@ -4,8 +4,7 @@
     android:id="@+id/activity_asistencia"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="net.ddns.wizards.wizards.Asistencia"
-    android:background="@drawable/back">
+    tools:context="net.ddns.wizards.wizards.Asistencia">
 
     <TextView
         android:text="Jugadores"
@@ -26,6 +25,7 @@
     <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:id="@+id/listView"
         android:layout_below="@+id/btn1" />
 
 </RelativeLayout>
