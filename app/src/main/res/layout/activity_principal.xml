@@ -7,12 +7,12 @@
     android:layout_height="match_parent"
     android:screenOrientation="landscape"
     tools:context="net.ddns.wizards.wizards.principal"
-    android:background="@drawable/back">
+    android:background="@drawable/back3">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Wizards                                Memú!"
+        android:text="Wizards Memú!"
         android:textColor="@android:color/background_dark"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
