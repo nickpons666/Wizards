@@ -55,4 +55,10 @@ public class principal extends AppCompatActivity {
         finish();
     }
 
+    public void reglamento2 (View view){
+        Intent i = new Intent(this, Reglamento2.class);
+        startActivity(i);
+        finish();
+    }
+
 }

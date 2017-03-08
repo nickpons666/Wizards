@@ -2,10 +2,10 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_reglamento"
+    android:id="@+id/activity_reglamento2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="net.ddns.wizards.wizards.Reglamento"
+    tools:context="net.ddns.wizards.wizards.Reglamento2"
     android:background="@drawable/back3">
 
     <TextView
@@ -28,7 +28,7 @@
         android:id="@+id/imageView1"
         android:layout_width = "200dp"
         android:layout_height= "200dp"
-        app:srcCompat="@drawable/reg1"
+        app:srcCompat="@drawable/reg2"
         android:layout_marginStart="12dp"
         android:layout_marginTop="11dp"
         android:layout_below="@+id/btn1"
