@@ -35,7 +35,8 @@ public class Equipos extends AppCompatActivity {
 
     public void ObtDatosEquipos(){
         AsyncHttpClient client = new AsyncHttpClient();
-        String url = "http://wizards.ddns.net:8080/api.wizards.ddns.net/equipos.php";
+        String url = "http://2.20.80.84:8080/api.wizards.ddns.net/equipos.php";
+        //String url = "http://wizards.ddns.net:8080/api.wizards.ddns.net/equipos.php";
         RequestParams parametros = new RequestParams();
         parametros.put("WIZARDS",1);
 
@@ -52,7 +53,7 @@ public class Equipos extends AppCompatActivity {
             public void onFailure(int statusCode, org.apache.http.Header[] headers, byte[] responseBody, Throwable error) {
 
             }
-    });
+        });
     }
 
     public void CargarListaEquipos(ArrayList<String> equipos){
@@ -67,12 +68,12 @@ public class Equipos extends AppCompatActivity {
             JSONArray jsonArray = new JSONArray(response);
             String texto;
             for(int i=0;i<jsonArray.length();i++) {
-            texto = jsonArray.getJSONObject(i).getString("id_equipos") +"   "+
-                    jsonArray.getJSONObject(i).getString("nombre_equipo") +"   "+
-                    jsonArray.getJSONObject(i).getString("fecha_alta") + " ";
+                texto = jsonArray.getJSONObject(i).getString("id_equipos") +"   "+
+                        jsonArray.getJSONObject(i).getString("nombre_equipo") +"   "+
+                        jsonArray.getJSONObject(i).getString("fecha_alta") + " ";
                 listado.add(texto);
             }
-            }catch (Exception e){
+        }catch (Exception e){
             e.printStackTrace();
         }
         return listado;
