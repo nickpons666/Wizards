@@ -81,6 +81,7 @@
             android:layout_height="wrap_content"
             android:onClick="Asistencia"
             android:text="Asistencia"
+            android:visibility="invisible"
             tools:layout_editor_absoluteX="8dp"
             tools:layout_editor_absoluteY="0dp" />
 
@@ -90,6 +91,7 @@
             android:layout_height="wrap_content"
             android:onClick="canastas"
             android:text="Canastas"
+            android:visibility="invisible"
             tools:layout_editor_absoluteX="8dp"
             tools:layout_editor_absoluteY="0dp" />
 
