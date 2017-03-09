@@ -26,12 +26,18 @@
         <activity
             android:name=".Asistencia"
             android:screenOrientation="portrait" />
-        <activity android:name=".Jugadores" />
-        <activity android:name=".Horario" />
-        <activity android:name=".Historial" />
-        <activity android:name=".Canastas" />
-        <activity android:name=".Reglamento" />
-        <activity android:name=".Reglamento2"></activity>
+        <activity android:name=".Jugadores"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Horario"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Historial"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Canastas"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Reglamento"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Reglamento2"
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>
