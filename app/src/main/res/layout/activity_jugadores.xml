@@ -4,7 +4,7 @@
     android:id="@+id/activity_jugadores"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/back3"
+    android:background="@drawable/back11"
     tools:context="net.ddns.wizards.wizards.Jugadores">
 
     <TextView
@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/txt1"
-        android:textColor="@android:color/holo_orange_light" />
+        android:textColor="@android:color/background_dark" />
     <Button
         android:text="Regresar"
         android:layout_width="match_parent"

@@ -65,7 +65,8 @@ public class Jugadores extends AppCompatActivity {
             JSONArray jsonArray = new JSONArray(response);
             String texto;
             for(int i=0;i<jsonArray.length();i++) {
-                texto = jsonArray.getJSONObject(i).getString("nombre_jugador") +"                 "+
+                texto = jsonArray.getJSONObject(i).getString("nombre_equipo") +" - "+
+                        jsonArray.getJSONObject(i).getString("nombre_jugador") +" - "+
                         jsonArray.getJSONObject(i).getString("numero_jugador") +"";
                 //jsonArray.getJSONObject(i).getString("Edad") + " ";
                 listado.add(texto);

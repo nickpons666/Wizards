@@ -68,8 +68,8 @@ public class Equipos extends AppCompatActivity {
             JSONArray jsonArray = new JSONArray(response);
             String texto;
             for(int i=0;i<jsonArray.length();i++) {
-                texto = jsonArray.getJSONObject(i).getString("id_equipos") +"   "+
-                        jsonArray.getJSONObject(i).getString("nombre_equipo") +"   "+
+                texto = jsonArray.getJSONObject(i).getString("id_equipos") +"  - "+
+                        jsonArray.getJSONObject(i).getString("nombre_equipo") +" -  "+
                         jsonArray.getJSONObject(i).getString("fecha_alta") + " ";
                 listado.add(texto);
             }

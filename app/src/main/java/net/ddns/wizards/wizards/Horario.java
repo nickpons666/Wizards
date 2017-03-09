@@ -35,7 +35,7 @@ public class Horario extends AppCompatActivity {
         String url = "http://2.20.80.84:8080/api.wizards.ddns.net/horario.php";
         //String url = "http://wizards.ddns.net:8080/api.wizards.ddns.net/horario.php";
         RequestParams parametros = new RequestParams();
-        parametros.put("WIZARDS",0);
+        parametros.put("WIZARDS",1);
 
         client.post(url, parametros, new AsyncHttpResponseHandler() {
             @Override
@@ -65,8 +65,9 @@ public class Horario extends AppCompatActivity {
             JSONArray jsonArray = new JSONArray(response);
             String texto;
             for(int i=0;i<jsonArray.length();i++) {
-                texto = jsonArray.getJSONObject(i).getString("nombre_equipo") +"   "+
-                        jsonArray.getJSONObject(i).getString("fecha") +"   "+
+                texto = jsonArray.getJSONObject(i).getString("id_horario") +" -  "+
+                        jsonArray.getJSONObject(i).getString("nombre_equipo") +" -  "+
+                        jsonArray.getJSONObject(i).getString("fecha") +" -  "+
                         jsonArray.getJSONObject(i).getString("hora") + " ";
                 listado.add(texto);
             }
