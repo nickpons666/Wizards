@@ -85,6 +85,15 @@
             tools:layout_editor_absoluteY="0dp" />
 
         <Button
+            android:id="@+id/btn9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Menu"
+            android:text="Menú Administrador"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <Button
             android:id="@+id/btn5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
