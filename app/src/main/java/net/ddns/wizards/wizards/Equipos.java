@@ -35,7 +35,6 @@ public class Equipos extends AppCompatActivity {
 
     public void ObtDatosEquipos(){
         AsyncHttpClient client = new AsyncHttpClient();
-        //String url = "http://2.20.80.84:8080/api.wizards.ddns.net/equipos.php";
         String url = "http://wizards.ddns.net:8080/api.wizards.ddns.net/equipos.php";
         RequestParams parametros = new RequestParams();
         parametros.put("WIZARDS",1);

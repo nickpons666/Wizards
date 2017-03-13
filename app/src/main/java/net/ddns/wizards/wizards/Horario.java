@@ -33,7 +33,6 @@ public class Horario extends AppCompatActivity {
     }
     public void ObtDatosHorario(){
         AsyncHttpClient client = new AsyncHttpClient();
-        //String url = "http://2.20.80.84:8080/api.wizards.ddns.net/horario.php";
         String url = "http://wizards.ddns.net:8080/api.wizards.ddns.net/horario.php";
         RequestParams parametros = new RequestParams();
         parametros.put("WIZARDS",1);
