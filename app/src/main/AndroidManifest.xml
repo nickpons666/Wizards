@@ -44,6 +44,10 @@
         <activity
             android:name=".Reglamento2"
             android:screenOrientation="portrait" />
+        <activity android:name=".Login"
+            android:screenOrientation="portrait" />
+        <activity android:name=".MenuAdministrador"
+            android:screenOrientation="portrait" ></activity>
     </application>
 
 </manifest>

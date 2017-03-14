@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Wizards</string>
+    <string name="MenuAdministrador">MenuAdministrador</string>
+    <string name="wrong_log">Problemas</string>
 </resources>

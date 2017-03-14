@@ -88,7 +88,7 @@
             android:id="@+id/btn9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="Menu"
+            android:onClick="login"
             android:text="Menu Administrador"
             tools:layout_editor_absoluteX="8dp"
             tools:layout_editor_absoluteY="0dp" />
