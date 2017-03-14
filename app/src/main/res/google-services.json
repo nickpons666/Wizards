@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "608980262158",
+    "firebase_url": "https://wizards-6e1c9.firebaseio.com",
+    "project_id": "wizards-6e1c9",
+    "storage_bucket": "wizards-6e1c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:608980262158:android:093022923c22a6d7",
+        "android_client_info": {
+          "package_name": "net.ddns.wizards.wizards"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "608980262158-jml788lr4cfduf82kgijg7mjqdfcjksf.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "608980262158-flpgo3lth9bq7nu5dhgf7n0i3g6uqc45.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJjuSqthDcqJzNB7z7iuljgP1DOz94iV4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
