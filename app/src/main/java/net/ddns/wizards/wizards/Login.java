@@ -15,7 +15,7 @@ public class Login extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        login1(); // LLamo a la funcion para el logueo.
+        login1();
     }
 
     public void principal (View view) {
@@ -47,7 +47,7 @@ public class Login extends AppCompatActivity {
                 }
 
                 else {
-                    findViewById(R.id.badLog).setVisibility(View.VISIBLE); // Hago visible el mensaje de        // error en el user or pass.
+                    findViewById(R.id.badLog).setVisibility(View.VISIBLE);
 
                 }
             }
@@ -57,7 +57,7 @@ public class Login extends AppCompatActivity {
 
     public void change_activity () {
         Intent myIntent = new Intent(getApplicationContext(), MenuAdministrador.class);
-        startActivity(myIntent); // Cambio de aplicación
+        startActivity(myIntent);
     }
 
 

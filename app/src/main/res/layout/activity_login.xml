@@ -75,11 +75,11 @@
         android:id="@+id/badLog"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="5dp"
         android:text="@string/wrong_log"
         android:textColor="#ff121a"
-        android:visibility="invisible"/>
+        android:visibility="invisible"
+        android:layout_below="@+id/editText"
+        android:layout_alignStart="@+id/textView3" />
 
 
 </RelativeLayout>
