@@ -35,8 +35,8 @@ public class Login extends AppCompatActivity {
                 String usuario = user.getText().toString();
                 EditText pass=(EditText) findViewById(R.id.editText2);
                 String password = pass.getText().toString();
-                String user_stored="nickpons666";
-                String pass_stored="VENOMPONS";
+                String user_stored="wizards";
+                String pass_stored="wizards";
 
 
                 if (usuario.equals(user_stored) & password.equals(pass_stored)){
@@ -59,7 +59,4 @@ public class Login extends AppCompatActivity {
         Intent myIntent = new Intent(getApplicationContext(), MenuAdministrador.class);
         startActivity(myIntent);
     }
-
-
-
 }
