@@ -33,6 +33,7 @@
             android:id="@+id/btn7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="Agregarjugador"
             android:text="Agregar Jugador"
             tools:layout_editor_absoluteX="8dp"
             tools:layout_editor_absoluteY="0dp" />
